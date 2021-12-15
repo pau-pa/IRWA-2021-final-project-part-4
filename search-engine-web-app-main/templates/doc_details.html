@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Detail - IRWA Search Engine</title>
+</head>
+<body>
+<    <div class="nav-bar">
+        <a href="/">Search Engine</a>
+        <a href="/doc_details?position={{ position + -1 }}">Previous Result</a>
+        <a href="/doc_details?position={{ position + 1 }}">Next Result</a>
+
+
+    </div>
+<div class="center-screen">
+    <div class="information-text">
+        <h3>@{{ tweet.user_name}} - {{ tweet.user_screen_name}}</h3>
+        <p><b>Date: </b>{{ tweet.doc_date}}</p>
+        <p><b>Favs: </b>{{ tweet.likes}}</p>
+        <p><b>RTs: </b>{{ tweet.retweets}}</p>
+
+        <p><b>Full text:</b> {{ tweet.description}}</p>
+        <p><b>Hashtags:</b> {{ tweet.hashtags }} </p>
+        <a class="link" href="{{tweet.url}}">{{ tweet.url }}</a>
+    </div>
+</div>
+
+</body>
+</html>

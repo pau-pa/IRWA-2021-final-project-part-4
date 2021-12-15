@@ -1,0 +1,22 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Global Stats</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/">Search Engine</a>
+    </div>
+
+    <div class="second-row">
+        <div class="kpis-box">
+            <h2 class="centro">Indicators</h2>
+            <p>Total Pages Visited : {{ analytics_data.pages_viewed }}</p>
+            <p>Total Users : {{ analytics_data.get_num_user_agents() }}</p>
+        </div>
+    </div>
+
+</body>
+</html>
