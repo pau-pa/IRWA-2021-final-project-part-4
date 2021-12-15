@@ -13,7 +13,7 @@ Then you can return to the web-app-main directory and run the code:
 ```
 python web_app.py
 ```
-You will see in the terminal a message displaying your localhost IP and port. Access that address via web browser. It will take some time to load. Once you can acces it, you can write queries you want and you will see the results.
+You will see in the terminal a message displaying your localhost IP and port. Access that address via web browser. It will take some time to load. Once you can acces to it, you can write the queries you want and you will see the results.
 
 
 ## Requirements
