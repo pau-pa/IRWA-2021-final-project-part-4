@@ -17,7 +17,7 @@ You will see in the terminal a message displaying your localhost IP and port. Ac
 
 
 ## Requirements
-If you don't have some of the packages installed, you will need to download them. Some of them are:
+If you don not have some of the packages installed, you will need to download them. Some of them are:
 ```
 pip install deep-translator
 pip install jsonpickle
