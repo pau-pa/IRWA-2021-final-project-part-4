@@ -3,11 +3,11 @@ Mara Martínez: 219330 Pau Puertas: 218872 Rosa Alós: 205930.
 
 ##Usage
 First of all you will need to create your virtual environment. Yo can do the following commands:
-'''
+```
 python -m virtualvenv venv
 cd venv\Scripts
 activate
-'''
+```
 
 Then you can return to the web-app-main directory and run the code:
 python web_app.py
